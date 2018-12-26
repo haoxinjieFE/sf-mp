@@ -1,26 +1,6 @@
 {
 	"pages": [
-		"pages/marketIndex/marketIndex",
-		"pages/shoppingCart/shoppingCart",
-		"pages/address/list",
-		"pages/address/edit",
-		"pages/myCenter/myCenter",
-		"pages/userInfo/userInfo",
-		"pages/approve/approve",
-		"pages/login/login",
-		"pages/skuDetail/skuDetail",
-		"pages/paySuccess/paySuccess",
-		"pages/myOrder/myOrder",
-		"pages/orderDetail/orderDetail",
-		"pages/orderSubmit/orderSubmit",
-		"pages/orderSubmitSuccess/orderSubmitSuccess",
-		"pages/search/search",
-		"pages/noNetWork/noNetWork",
-		"pages/sorts/sorts",
-		"pages/returns/select",
-		"pages/returns/create",
-		"pages/returns/list",
-		"pages/returns/detail"
+		"pages/demo/demo"
 	],
 	"window": {
 		"backgroundColor": "#FAFAFA",

@@ -1,7 +1,5 @@
-import { checkLogin, getApproveInfo, getShopCartSum, uploadFormId } from '../api/common';
-import { wxLoginPr } from "./wxApiPromise";
+
 const regeneratorRuntime = require('../vendor/runtime');
-import { CSTOKEN, CUSS, LOGOUT_ERR, PHONE, APPROVE_STATUS_MAP, SUCCESS } from './constant';
 const appInstance = getApp();
 /**
  * 更新Global 里的登录状态 和 账户状态

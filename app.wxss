@@ -2,15 +2,9 @@
 @import "style/weui.wxss";
 /* 引入 templates */
 @import "templates/template.wxss";
-/* 引入 include */
-@import "include/include.wxss";
 /* font */
-
 @import "style/icon.wxss";
 
-@import "templates/common/common.wxss";
-
-/* 基础样式库 */
 page {
   min-height: 100%;
   background-color: #FAFAFA;

@@ -1,5 +1,5 @@
-<view class="" hover-class="none" hover-stop-propagation="false">
-    <image class="" src="../../statics/demo/demo.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
-         
+<view class="container">
+    <image class="demo" src="../../statics/demo/demo.png" />
+    <view class="words">sf-mp start!</view>   
 </view>
   

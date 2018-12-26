@@ -1,5 +1,3 @@
-import { CSTOKEN, CUSS, LOGOUT_ERR } from './constant.js';
-
 let isConnected = true;
 let networkType = 'wifi';
 const ERROR_CODE = {

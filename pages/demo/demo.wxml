@@ -1,5 +1,0 @@
-<view class="container">
-    <image class="demo" src="../../statics/demo/demo.png" />
-    <view class="words">sf-mp start!</view>   
-</view>
-  

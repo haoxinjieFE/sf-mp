@@ -1,7 +1,0 @@
-<view wx:if="{{isShow}}" class="dialog" catchtouchmove="onTouchPreventDef">
-    <view animation="{{markAnimation}}" bindtap="onClickCancel" class="mark"></view>
-    <view animation="{{infoAnimation}}" id="infoId" class="info" style="transform: translateY({{dialogHeight}}px)">
-        <slot name="title"></slot>
-        <slot name="content"></slot>
-    </view>
-</view>

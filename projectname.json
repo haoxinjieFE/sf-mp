@@ -1,0 +1,115 @@
+{
+	"description": "项目配置文件",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.0",
+	"appid": "",
+	"projectname": "sf-mp",
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "mock"
+			},
+			{
+				"type": "file",
+				"value": "edp-webserver-config.js"
+			}
+		]
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": -1,
+					"name": "登陆",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "商品详情",
+					"pathName": "pages/skuDetail/skuDetail",
+					"query": "id=197"
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/shoppingCart/shoppingCart",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "提单页",
+					"pathName": "pages/orderSubmit/orderSubmit",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "提单成功",
+					"pathName": "pages/orderSubmitSuccess/orderSubmitSuccess",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "资质审核",
+					"pathName": "pages/approve/approve",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "用户资料",
+					"pathName": "pages/userInfo/userInfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/myCenter/myCenter",
+					"query": ""
+				},
+				{
+					"id": 8,
+					"name": "退货选择",
+					"pathName": "pages/returns/select",
+					"query": "orderId=3239470979946265601"
+				},
+				{
+					"id": 9,
+					"name": "订单详情",
+					"pathName": "pages/orderDetail/orderDetail",
+					"query": "order_id=3240354111944044545"
+				},
+				{
+					"id": 10,
+					"name": "退款详情",
+					"pathName": "pages/returns/detail",
+					"query": "returnOrderId=3240379536103500801&orderId=3240354111944044545"
+				}
+			]
+		}
+	}
+}

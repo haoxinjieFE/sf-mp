@@ -1,0 +1,67 @@
+{
+	"pages": [
+		"pages/marketIndex/marketIndex",
+		"pages/shoppingCart/shoppingCart",
+		"pages/address/list",
+		"pages/address/edit",
+		"pages/myCenter/myCenter",
+		"pages/userInfo/userInfo",
+		"pages/approve/approve",
+		"pages/login/login",
+		"pages/skuDetail/skuDetail",
+		"pages/paySuccess/paySuccess",
+		"pages/myOrder/myOrder",
+		"pages/orderDetail/orderDetail",
+		"pages/orderSubmit/orderSubmit",
+		"pages/orderSubmitSuccess/orderSubmitSuccess",
+		"pages/search/search",
+		"pages/noNetWork/noNetWork",
+		"pages/sorts/sorts",
+		"pages/returns/select",
+		"pages/returns/create",
+		"pages/returns/list",
+		"pages/returns/detail"
+	],
+	"window": {
+		"backgroundColor": "#FAFAFA",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "丰物集",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#979797",
+		"selectedColor": "#00A8E4",
+		"backgroundColor": "#FFF",
+		"list": [
+			{
+				"pagePath": "pages/marketIndex/marketIndex",
+				"text": "首页",
+				"iconPath": "statics/tabs/icon_home_page@3x.png",
+				"selectedIconPath": "statics/tabs/icon_home_page_press@3x.png"
+			},
+			{
+				"pagePath": "pages/sorts/sorts",
+				"text": "分类",
+				"iconPath": "statics/tabs/icon_whole_normal@3x.png",
+				"selectedIconPath": "statics/tabs/icon_whole_pressed@3x.png"
+			},
+			{
+				"pagePath": "pages/shoppingCart/shoppingCart",
+				"text": "购物车",
+				"iconPath": "statics/tabs/icon_shopping_cart_normal@3x.png",
+				"selectedIconPath": "statics/tabs/icon_shopping_cart_press@3x.png"
+			},
+			{
+				"pagePath": "pages/myCenter/myCenter",
+				"text": "我的",
+				"iconPath": "statics/tabs/icon_my_normal@3x.png",
+				"selectedIconPath": "statics/tabs/icon_my_press@3x.png"
+			}
+		]
+	},
+	"plugins": {},
+	"networkTimeout": {
+		"request": 15000
+	}
+}

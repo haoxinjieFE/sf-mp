@@ -1,0 +1,10 @@
+<span bindtap="onChangeSelect">
+    <block wx:if="{{isDisabled}}">
+        <text wx:if="{{isChecked}}" class="iconfont icon-Selectedx- radio-icon disabled-icon"></text>
+        <text wx:else class="iconfont icon-return_Unselected- radio-icon disabled-icon"></text>
+    </block>
+    <block wx:else>
+        <text wx:if="{{isChecked}}" class="iconfont icon-Selectedx- radio-icon checked-icon"></text>
+        <text wx:else class="iconfont icon-return_Unselected- radio-icon"></text>
+    </block>
+</span>

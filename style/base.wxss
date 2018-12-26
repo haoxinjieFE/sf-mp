@@ -1,0 +1,79 @@
+/* 基础样式 */
+
+.ft-24 {
+    font-size: 24rpx;
+}
+.ft-28 {
+    font-size: 28rpx;
+}
+.ft-56 {
+    font-size: 56rpx;
+}
+.pad-lf-10 {
+    padding-left: 10rpx;
+}
+
+.pad-tp-20 {
+    padding-top: 20rpx;
+}
+.pad-bt-0 {
+    padding-bottom: 0!important;
+}
+.pad-bt-20 {
+    padding-bottom: 20rpx;
+}
+.mrg-tp-10 {
+    margin-top: 10rpx;
+}
+
+.mrg-tp-20 {
+    margin-top: 20rpx;
+}
+
+.mrg-bt-20 {
+    margin-bottom: 20rpx;
+}
+
+.mrg-bt--20 {
+    margin-bottom: -20rpx;
+}
+
+.mrg-lf-10 {
+    margin-left: 10rpx;
+}
+
+.mrg-lf-20 {
+    margin-left: 20rpx;
+}
+
+.mrg-lf-30 {
+    margin-left: 30rpx;
+}
+
+.mrg-lf-40 {
+    margin-left: 40rpx;
+}
+
+.mrg-rg-20 {
+    margin-right: 20rpx;
+}
+
+.mrg-rg-30 {
+    margin-right: 30rpx;
+}
+
+.mrg-rg-40 {
+    margin-right: 40rpx;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.btn-blue {
+    background-color: #00A8E4;
+}

@@ -29,3 +29,12 @@
     color: #969696;
     text-align: center;
 }
+
+.btnContainer {
+    margin-top: 30rpx;
+    display: flex;
+}
+
+.sub {
+    margin-left: 30rpx;
+}
